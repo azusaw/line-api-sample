@@ -10,7 +10,7 @@ The most used messaging app in Japan.
 
 # attention
 
-LINE APIs can't be called from the front end because it causes a CORS error. 
+LINE APIs with POST can't be called from the front end because it causes a CORS error. 
 
 API call methods must be put on the backend or using services such as AWS Lambda.
 
