@@ -2,9 +2,8 @@ import React from "react"
 
 const Login: React.FC = () => {
   
-  const clientId = "1654987562"
   /* LINE settings */
-  const clientId = "1654987562"
+  const clientId = "your-client-id"
   const redirectUrl = "your-redirect-target-url"
   const lineUrl =
     "https://access.line.me/oauth2/v2.1/authorize?response_type=code" +
