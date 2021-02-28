@@ -10,7 +10,6 @@ const RedirectPage: React.FC = () => {
     picture: null | string
     isFriend: null | boolean
   }>({ userName: null, userId: null, picture: null, isFriend: false })
-
   const [tmpLineInfo, setTmpInfo] = useState<{
     idToken: null | string,
     accessToken: null | string
@@ -25,7 +24,7 @@ const RedirectPage: React.FC = () => {
     const obj1 = {
       grant_type: "authorization_code",
       code: new URLSearchParams(urlParams).get("code"),
-      redirect_uri: redirectUrl,
+      redirect_uri: "your-redirect-url,
       client_id: "your-client-id",
       client_secret: "your-client-secret",
     }
